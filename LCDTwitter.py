@@ -83,11 +83,11 @@ class TwitterLCD(Adafruit_CharLCDPlate, threading.Thread):
                 print "clicked"
                 semaphore.acquire()
                 semaphore.release()
-APP_KEY = 'Bnjesgy6vEoEJ10lJPJixQ'
-APP_SECRET = '9LajtmzT42dcgWmoU7LBibSc5n2orToiH6ObDSYCE'
+APP_KEY = ''
+APP_SECRET = ''
 
-OAUTH_TOKEN = '28185894-d4Ax4xiD2IqopvaCKSGdsqmKVQtr4i8mZK6YOhjI'
-OAUTH_TOKEN_SECRET = 'zDHr6TKDzviyn2uCIVjXbZsvojxNAeNFPjrivIpPo'
+OAUTH_TOKEN = ''
+OAUTH_TOKEN_SECRET = ''
 twitter = Twython(APP_KEY, APP_SECRET,
                   OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
 lcd = Adafruit_CharLCDPlate()
